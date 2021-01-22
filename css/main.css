@@ -134,7 +134,7 @@ img {
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -199,6 +199,14 @@ header nav ul li {
   font-size: 1.125em;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* Footer Styles */
 
 footer {
@@ -244,9 +252,18 @@ footer p {
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.hero-area .content-wrapper {
+  margin: 20px;
 }
 
 .hero-area h1 {
@@ -299,6 +316,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -352,6 +372,12 @@ input[type=button] {
   margin: 20px 0;
 }
 
+.reviews figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 /*----- Mobile Styles - About Page -----*/
 
 /* Mission */
@@ -545,7 +571,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 30%;
   }
 
   header nav ul {
@@ -566,6 +592,14 @@ input[type=button] {
   }
 
   /* Hero-Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area .content-wrapper {
+    margin: 100px 0;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -622,6 +656,10 @@ input[type=button] {
   .reviews h3 {
     width: 75%;
     margin: 0;
+  }
+
+  .reviews article figure {
+    width: 49%;
   }
 
   /* Footer */
@@ -736,7 +774,15 @@ input[type=button] {
     padding: 15px 0;
   }
 
+  header nav {
+    width: 20%;
+  }
+
   /* Hero Area */
+
+  .hero-area {
+    min-height: 700px;
+  }
   
   .hero-area h1 {
     font-size: 3.75em;
