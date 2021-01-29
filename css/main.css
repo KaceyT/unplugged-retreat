@@ -719,6 +719,12 @@ input[type=button] {
     width: 45%;
   }
 
+  /* Map Section */
+
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   /* Contact Section */
   
   .contact-section .content-wrapper h2 {
@@ -844,11 +850,21 @@ input[type=button] {
 
   /**********ABOUT PAGE**********/
 
+  /* Mission Section */
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     font-size: 3em;
     width: 100%;
   }
+
+  /* Map Section */
+
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
+  /* Contact Section */
 
   .contact-content h4 {
     font-size: 1.875em;
