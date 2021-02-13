@@ -600,6 +600,7 @@ input[type=button] {
   }
 
   header nav ul {
+    width: 70%;
     justify-content: space-between;
   }
 
